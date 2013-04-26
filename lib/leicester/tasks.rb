@@ -7,9 +7,11 @@ module Leicester
     end
 
     def define_tasks
-      desc "A dummy task that does nothing"
-      task :dummy do
-        puts "Dummy task does dummy stuff"
+      namespace 'leicester' do
+        desc "A dummy task that does nothing"
+        task :dummy do
+          puts "Dummy task does dummy stuff"
+        end
       end
     end
   end

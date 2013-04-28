@@ -13,6 +13,11 @@ module Leicester
         task :readPlist do
           puts Plist.new("example.plist").value("someKey")
         end
+
+        desc "A task to write some value to a plist"
+        task :writePlist do
+          puts Plist.new("example.plist").set_value("someKey", "some new value")
+        end
       end
     end
   end

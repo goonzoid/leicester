@@ -1,3 +1,5 @@
+##THIS GEM IS NOT YET LIVE, SO YOU WON'T BE ABLE TO USE IT YET!
+
 # Leicester
 
 Leicester is a rake task library to help with building and deploying iOS apps.
